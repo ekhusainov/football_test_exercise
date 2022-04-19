@@ -16,7 +16,7 @@ logger = logging.getLogger(APPLICATION_NAME)
 
 @click.command(name="choose")
 @click.argument("action")
-@click.argument("img_filepath")
+@click.argument("img_filepath", required=False)
 def main(action: str, img_filepath: str):
     setup_logging()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

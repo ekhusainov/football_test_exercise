@@ -229,7 +229,6 @@ def train(model, dataset, num_epochs=NUM_EPOCHS, batch_size=BATCH_SIZE, lr=LR, d
         logger.info("Start epoch %s", repr(epoch + 1))
         for batch in tqdm(dataloader):
             xs, ys_true = batch
-            print(xs.shape)
             logits_pred = model(xs.to(device)).cpu()
             loss = cross_entropy(logits_pred, ys_true)
 
