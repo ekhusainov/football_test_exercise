@@ -9,13 +9,14 @@ with open(REQUIREMENTS_PATH) as our_file:
     required_libraries = our_file.read().splitlines()
 
 setup(
-    name="CV test exercise",
+    name="ekhusainov_cv_football_task",
     version="0.1.0",
     description="Test exercise. CV. Classification.",
     long_description="README.md",
-    packages=find_packages(),
+    packages=["ekhusainov_cv_football_task"],
     author="Khusainov Eldar",
     install_requires=required_libraries,
     license="MIT",
     license_files="LICENSE",
+    author_email="xluttiy@gmail.com"
 )
