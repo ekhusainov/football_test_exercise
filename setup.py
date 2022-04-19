@@ -13,7 +13,7 @@ setup(
     version="0.1.0",
     description="Test exercise. CV. Classification.",
     long_description="README.md",
-    packages=["ekhusainov_cv_football_task"],
+    packages=find_packages(),
     author="Khusainov Eldar",
     install_requires=required_libraries,
     license="MIT",

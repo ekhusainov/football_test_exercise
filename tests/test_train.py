@@ -2,11 +2,10 @@ import numpy as np
 import torch
 from torch import nn
 
-from src.train.train import (
+from ekhusainov_cv_football_task.train.train import (
     get_conv,
     GlobalAveragePooling2d,
     ResidualBlock,
-    train,
     prepare_data,
 )
 

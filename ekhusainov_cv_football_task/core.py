@@ -6,9 +6,9 @@ import click
 
 import yaml
 
-from src.train.train import train_network
-from src.predict.predict import eval
-from src.enities.logging_params import setup_logging
+from ekhusainov_cv_football_task.train.train import train_network
+from ekhusainov_cv_football_task.predict.predict import eval
+from ekhusainov_cv_football_task.enities.logging_params import setup_logging
 
 APPLICATION_NAME = "core"
 

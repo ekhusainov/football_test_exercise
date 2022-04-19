@@ -8,8 +8,8 @@ from torchvision import transforms
 from torchvision.datasets import ImageFolder
 
 
-from src.enities.logging_params import setup_logging
-from src.train.train import (
+from ekhusainov_cv_football_task.enities.logging_params import setup_logging
+from ekhusainov_cv_football_task.train.train import (
     BATCH_SIZE,
     RESIZE_SIZE,
 )
