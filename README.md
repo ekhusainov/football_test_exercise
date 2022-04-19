@@ -8,5 +8,5 @@ python core.py inference filepath_to_image.jpg
 pytest -v -p no:warnings tests
 
 Установить все пакеты:  
-pip install -e .
+pip install -e .  
 pip3 install -e .
