@@ -7,6 +7,6 @@ python core.py inference filepath_to_image.jpg
 Прогнать тесты:  
 pytest -v -p no:warnings tests
 
-Установить все пакеты:
+Установить все пакеты:  
 pip install -e .
 pip3 install -e .
