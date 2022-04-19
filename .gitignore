@@ -153,3 +153,6 @@ cython_debug/
 *.jpg
 resnet.pt
 notebooks/
+models/resnet.pt
+models/resnet.pt
+*.pt

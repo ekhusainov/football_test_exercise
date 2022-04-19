@@ -1,5 +1,8 @@
 Запустить обучение:  
-python ekhusainov_cv_football_task/core.py train
+python core.py train
 
 Запустить предсказание:  
-python ekhusainov_cv_football_task/core.py inference filepath_to_image.jpg 
+python core.py inference filepath_to_image.jpg 
+
+Прогнать тесты:  
+pytest -v -p no:warnings tests

@@ -13,7 +13,7 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
 from torchvision import transforms
 
-from src.enities.logging_params import setup_logging
+from ekhusainov_cv_football_task.enities.logging_params import setup_logging
 
 APPLICATION_NAME = "train"
 DATA_FILEPATH = "data\GrayScaleTrain"
@@ -252,7 +252,6 @@ def get_football_command_names():
 def train_network():
     setup_logging()
     logger.info("Start to train network.")
-    # get_football_command_names()
     dataset = prepare_data()
     resnet34 = create_resnet34()
     train(resnet34, dataset)

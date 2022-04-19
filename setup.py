@@ -10,10 +10,10 @@ with open(REQUIREMENTS_PATH) as our_file:
 
 setup(
     name="ekhusainov_cv_football_task",
-    version="0.1.0",
+    version="0.1.3",
     description="Test exercise. CV. Classification.",
     long_description="README.md",
-    packages=find_packages(),
+    packages=["ekhusainov_cv_football_task"],
     author="Khusainov Eldar",
     install_requires=required_libraries,
     license="MIT",
