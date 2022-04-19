@@ -2,4 +2,4 @@
 python src/core.py train
 
 Запустить предсказание:  
-python src/core.py inference ars.jpg 
+python src/core.py inference filepath_to_image.jpg 
